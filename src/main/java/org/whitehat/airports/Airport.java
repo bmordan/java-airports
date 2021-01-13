@@ -2,6 +2,9 @@ package org.whitehat.airports;
 
 public class Airport {
 
+    public Airport() {
+    }
+
     public Airport(String icao, String iata, String name, String city, String state, String country, int elevation, Double lat, Double lon, String tz) {
         this.icao = icao;
         this.iata = iata;
